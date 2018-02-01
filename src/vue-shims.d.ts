@@ -4,6 +4,6 @@ declare module "*.vue" {
 }
 
 declare module "*.md" {
-  import Vue from "vue"
-  export default Vue
+  const markdown: any
+  export default markdown
 }
